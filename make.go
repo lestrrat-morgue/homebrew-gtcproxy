@@ -15,10 +15,10 @@ require 'formula'
 HOMEBREW_GTCPROXY_VERSION='%s'
 class Gtcproxy < Formula
   homepage 'https://github.com/lestrrat/gtcproxy'
-  url "https://github.com/lestrrat/gtcproxy/releases/download/v#{HOMEBREW_PECO_VERSION}/gtcproxy_darwin_amd64.zip"
+  url "https://github.com/lestrrat/gtcproxy/releases/download/v#{HOMEBREW_GTCPROXY_VERSION}/gtcproxy_darwin_amd64.zip"
   sha1 "%x"
 
-  version HOMEBREW_PECO_VERSION
+  version HOMEBREW_GTCPROXY_VERSION
   head 'https://github.com/lestrrat/gtcproxy.git', :branch => 'master'
 
   if build.head?
