@@ -1,8 +1,8 @@
 # WARNING: Automatically generated. All changes to this file will be lost
 require 'formula'
 
-HOMEBREW_PECO_VERSION='0.0.1'
-class Peco < Formula
+HOMEBREW_GTCPROXY_VERSION='0.0.1'
+class Gtcproxy < Formula
   homepage 'https://github.com/lestrrat/gtcproxy'
   url "https://github.com/lestrrat/gtcproxy/releases/download/v#{HOMEBREW_PECO_VERSION}/gtcproxy_darwin_amd64.zip"
   sha1 "78f2e67425c263fdfadab811834e10e7b6994602"

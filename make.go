@@ -12,8 +12,8 @@ import (
 const gtcproxyRbFmt = `# WARNING: Automatically generated. All changes to this file will be lost
 require 'formula'
 
-HOMEBREW_PECO_VERSION='%s'
-class Peco < Formula
+HOMEBREW_GTCPROXY_VERSION='%s'
+class Gtcproxy < Formula
   homepage 'https://github.com/lestrrat/gtcproxy'
   url "https://github.com/lestrrat/gtcproxy/releases/download/v#{HOMEBREW_PECO_VERSION}/gtcproxy_darwin_amd64.zip"
   sha1 "%x"
